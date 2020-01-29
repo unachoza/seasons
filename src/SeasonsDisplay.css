@@ -1,0 +1,33 @@
+.icon-left{
+position: absolute;
+top: 10px;
+left: 10px;
+}
+.icon-right {
+position: absolute;
+bottom: 10px;
+right: 10px;  
+}
+.seasons-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.seasons-display.summer i {
+  color: #ffa600e8
+
+}
+.seasons-display.winter i {
+  color: #0000ff7e
+
+}
+.seasons-display.summer {
+  background-color: #e6b354;
+
+}
+.seasons-display.winter {
+  background-color: #ccdeee;
+
+}
