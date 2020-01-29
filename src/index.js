@@ -23,8 +23,11 @@ class App extends React.Component {
     console.log('updated');
   }
 
-  render() {
-    return <div>something{this.state.lat}</div>;
+    render() {
+        if (!this.state.lat) {
+          return <div>loading .. </div>
+      }
+    return <div>Loaction : {this.state.lat}</div>;
   }
 }
 
