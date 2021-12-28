@@ -21,9 +21,9 @@ const SeasonDisplay = ({lat}) => {
 
   return (
     <div className={`seasons-display ${season}`}>
-      <i className={`icon-right massive ${iconName} icon`} />
+      <i className={`icon-right massive ${iconName} icon shake`} />
       <h1>{text}</h1>
-      <i className={`icon-left massive ${iconName} icon`} />
+      <i className={`icon-left massive ${iconName} icon shake`} />
     </div>
   );
 };
